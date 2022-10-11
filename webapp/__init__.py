@@ -1,8 +1,9 @@
 from flask import Flask, render_template
 
-from webapp.weather import weather_by_city
+#from webapp.weather import weather_by_city
 from webapp.python_org_news import get_python_news
 from webapp.weather import weather_by_city
+
 
 def create_app():
     app = Flask(__name__)
@@ -24,8 +25,7 @@ def create_app():
 
     return app
 
-
-
+# set FLASK_APP=webapp && set FLASK_ENV=development && set FLASK_DEBUG=1 && flask run
 
 '''
 if __name__ == "__main__":

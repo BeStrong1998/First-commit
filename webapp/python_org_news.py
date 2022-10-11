@@ -28,18 +28,3 @@ def get_python_news():
             })
         return result_news
     return False
-
-'''
-        print(title)
-        print(url)
-        print(published)
-'''
-
-
-
-#if __name__ == "__main__":
-    #html = get_html("https://www.python.org/blogs/")
-    
-            #get_python_news(html)
-        #with open("python.org.html", "w", encoding="utf8") as f:
-            #f.write(html)
