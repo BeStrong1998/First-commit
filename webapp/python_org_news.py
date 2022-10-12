@@ -40,16 +40,3 @@ def save_news(title, url, published):
         db.session.add(news_news)
         db.session.commit()
 
-
-
-
-
-'''
-            result_news.append({
-                'title': title,
-                'url': url,
-                'published': published
-            })
-        return result_news
-    return False
-'''
