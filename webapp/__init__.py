@@ -22,30 +22,3 @@ def create_app():
     return app
 
 # set FLASK_APP=webapp && set FLASK_ENV=development && set FLASK_DEBUG=1 && flask run
-
-'''
-if __name__ == "__main__":
-    app.run(debug=True)
-
-
-
-
-
-
-
-<html>
-    <head>
-        <title>{{ page_title }}</title>
-    </head>
-    <body>
-        <h1>
-        {% if weather %}
-            Погода: {{ weather.temp_C }}, ощущается как {{ weather.FeelsLikeC }}
-        {% else %}
-            Сервис погоды временно недоступен
-        {% endif %}
-        </h1>
-    </body>
-</html>
-
-'''
